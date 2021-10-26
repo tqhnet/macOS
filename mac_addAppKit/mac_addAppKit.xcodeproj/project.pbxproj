@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48D88CFA2727EB3800930955 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D88CF92727EB3800930955 /* AppDelegate.m */; };
+		48D88CFD2727EB3800930955 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D88CFC2727EB3800930955 /* SceneDelegate.m */; };
+		48D88D002727EB3800930955 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D88CFF2727EB3800930955 /* ViewController.m */; };
+		48D88D032727EB3800930955 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48D88D012727EB3800930955 /* Main.storyboard */; };
+		48D88D052727EB3B00930955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48D88D042727EB3B00930955 /* Assets.xcassets */; };
+		48D88D082727EB3B00930955 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48D88D062727EB3B00930955 /* LaunchScreen.storyboard */; };
+		48D88D0B2727EB3B00930955 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D88D0A2727EB3B00930955 /* main.m */; };
+		48D88D212727EBEB00930955 /* MacPlugin.bundle in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = 48D88D182727EBC600930955 /* MacPlugin.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		48D88D2A2727ECDB00930955 /* MacPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D88D292727ECDB00930955 /* MacPlugin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48D88D222727EBEB00930955 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48D88CED2727EB3800930955 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48D88D172727EBC600930955;
+			remoteInfo = MacPlugin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		48D88D242727EBEB00930955 /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				48D88D212727EBEB00930955 /* MacPlugin.bundle in Embed PlugIns */,
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		48D88CF52727EB3800930955 /* mac_addAppKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mac_addAppKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48D88CF82727EB3800930955 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48D88CF92727EB3800930955 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48D88CFB2727EB3800930955 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		48D88CFC2727EB3800930955 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		48D88CFE2727EB3800930955 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		48D88CFF2727EB3800930955 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48D88D022727EB3800930955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48D88D042727EB3B00930955 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48D88D072727EB3B00930955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48D88D092727EB3B00930955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48D88D0A2727EB3B00930955 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48D88D122727EB4200930955 /* mac_addAppKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mac_addAppKit.entitlements; sourceTree = "<group>"; };
+		48D88D182727EBC600930955 /* MacPlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacPlugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		48D88D1A2727EBC600930955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48D88D272727EC7D00930955 /* Plugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Plugin.h; sourceTree = "<group>"; };
+		48D88D282727ECDB00930955 /* MacPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacPlugin.h; sourceTree = "<group>"; };
+		48D88D292727ECDB00930955 /* MacPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacPlugin.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48D88CF22727EB3800930955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48D88D152727EBC600930955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48D88CEC2727EB3800930955 = {
+			isa = PBXGroup;
+			children = (
+				48D88CF72727EB3800930955 /* mac_addAppKit */,
+				48D88D192727EBC600930955 /* MacPlugin */,
+				48D88CF62727EB3800930955 /* Products */,
+				48D88D202727EBEB00930955 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48D88CF62727EB3800930955 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48D88CF52727EB3800930955 /* mac_addAppKit.app */,
+				48D88D182727EBC600930955 /* MacPlugin.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48D88CF72727EB3800930955 /* mac_addAppKit */ = {
+			isa = PBXGroup;
+			children = (
+				48D88D122727EB4200930955 /* mac_addAppKit.entitlements */,
+				48D88CF82727EB3800930955 /* AppDelegate.h */,
+				48D88CF92727EB3800930955 /* AppDelegate.m */,
+				48D88CFB2727EB3800930955 /* SceneDelegate.h */,
+				48D88CFC2727EB3800930955 /* SceneDelegate.m */,
+				48D88CFE2727EB3800930955 /* ViewController.h */,
+				48D88CFF2727EB3800930955 /* ViewController.m */,
+				48D88D012727EB3800930955 /* Main.storyboard */,
+				48D88D042727EB3B00930955 /* Assets.xcassets */,
+				48D88D062727EB3B00930955 /* LaunchScreen.storyboard */,
+				48D88D092727EB3B00930955 /* Info.plist */,
+				48D88D0A2727EB3B00930955 /* main.m */,
+			);
+			path = mac_addAppKit;
+			sourceTree = "<group>";
+		};
+		48D88D192727EBC600930955 /* MacPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				48D88D1A2727EBC600930955 /* Info.plist */,
+				48D88D272727EC7D00930955 /* Plugin.h */,
+				48D88D282727ECDB00930955 /* MacPlugin.h */,
+				48D88D292727ECDB00930955 /* MacPlugin.m */,
+			);
+			path = MacPlugin;
+			sourceTree = "<group>";
+		};
+		48D88D202727EBEB00930955 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48D88CF42727EB3800930955 /* mac_addAppKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48D88D0E2727EB3B00930955 /* Build configuration list for PBXNativeTarget "mac_addAppKit" */;
+			buildPhases = (
+				48D88CF12727EB3800930955 /* Sources */,
+				48D88CF22727EB3800930955 /* Frameworks */,
+				48D88CF32727EB3800930955 /* Resources */,
+				48D88D242727EBEB00930955 /* Embed PlugIns */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48D88D232727EBEB00930955 /* PBXTargetDependency */,
+			);
+			name = mac_addAppKit;
+			productName = mac_addAppKit;
+			productReference = 48D88CF52727EB3800930955 /* mac_addAppKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48D88D172727EBC600930955 /* MacPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48D88D1B2727EBC600930955 /* Build configuration list for PBXNativeTarget "MacPlugin" */;
+			buildPhases = (
+				48D88D142727EBC600930955 /* Sources */,
+				48D88D152727EBC600930955 /* Frameworks */,
+				48D88D162727EBC600930955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacPlugin;
+			productName = MacPlugin;
+			productReference = 48D88D182727EBC600930955 /* MacPlugin.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48D88CED2727EB3800930955 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					48D88CF42727EB3800930955 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					48D88D172727EBC600930955 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 48D88CF02727EB3800930955 /* Build configuration list for PBXProject "mac_addAppKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48D88CEC2727EB3800930955;
+			productRefGroup = 48D88CF62727EB3800930955 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48D88CF42727EB3800930955 /* mac_addAppKit */,
+				48D88D172727EBC600930955 /* MacPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48D88CF32727EB3800930955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D88D082727EB3B00930955 /* LaunchScreen.storyboard in Resources */,
+				48D88D052727EB3B00930955 /* Assets.xcassets in Resources */,
+				48D88D032727EB3800930955 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48D88D162727EBC600930955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48D88CF12727EB3800930955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D88D002727EB3800930955 /* ViewController.m in Sources */,
+				48D88CFA2727EB3800930955 /* AppDelegate.m in Sources */,
+				48D88D0B2727EB3B00930955 /* main.m in Sources */,
+				48D88CFD2727EB3800930955 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48D88D142727EBC600930955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D88D2A2727ECDB00930955 /* MacPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48D88D232727EBEB00930955 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48D88D172727EBC600930955 /* MacPlugin */;
+			targetProxy = 48D88D222727EBEB00930955 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48D88D012727EB3800930955 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48D88D022727EB3800930955 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48D88D062727EB3B00930955 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48D88D072727EB3B00930955 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48D88D0C2727EB3B00930955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48D88D0D2727EB3B00930955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48D88D0F2727EB3B00930955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = mac_addAppKit/mac_addAppKit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5GFMWSR59V;
+				INFOPLIST_FILE = mac_addAppKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tqhnet.mac-addAppKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		48D88D102727EB3B00930955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = mac_addAppKit/mac_addAppKit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5GFMWSR59V;
+				INFOPLIST_FILE = mac_addAppKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tqhnet.mac-addAppKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		48D88D1C2727EBC600930955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5GFMWSR59V;
+				INFOPLIST_FILE = MacPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tqhnet.MacPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		48D88D1D2727EBC600930955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5GFMWSR59V;
+				INFOPLIST_FILE = MacPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tqhnet.MacPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48D88CF02727EB3800930955 /* Build configuration list for PBXProject "mac_addAppKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48D88D0C2727EB3B00930955 /* Debug */,
+				48D88D0D2727EB3B00930955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48D88D0E2727EB3B00930955 /* Build configuration list for PBXNativeTarget "mac_addAppKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48D88D0F2727EB3B00930955 /* Debug */,
+				48D88D102727EB3B00930955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48D88D1B2727EBC600930955 /* Build configuration list for PBXNativeTarget "MacPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48D88D1C2727EBC600930955 /* Debug */,
+				48D88D1D2727EBC600930955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48D88CED2727EB3800930955 /* Project object */;
+}
