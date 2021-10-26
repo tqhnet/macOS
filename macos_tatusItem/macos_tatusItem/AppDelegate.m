@@ -57,6 +57,11 @@
 
 - (void)load1{
     NSLog(@"load1 ---- ");
+    NSAlert *alert = [[NSAlert alloc] init];
+    alert.messageText = @"主标题";
+    alert.informativeText = @"弹窗信息";//内容
+    [alert addButtonWithTitle:@"确定"];//按钮所显示的文案
+    [alert runModal];
 }
 
 - (void)load2{
